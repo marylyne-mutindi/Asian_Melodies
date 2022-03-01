@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+    <ImageView
+        android:id="@+id/heart_g5614"
+        android:layout_width="362dp"
+        android:layout_height="362dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-76dp"
+        android:background="@drawable/heart" />
+
+
+    <TextView
+        android:id="@+id/melodies"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/heart_g5614"
+        android:layout_marginLeft="80dp"
+        android:text="asian_melodies"
+        android:textColor="@color/red"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/couples"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="happy couples"
+        android:layout_below="@id/melodies"
+        android:textColor="@color/red"
+        android:layout_marginTop="527dp"
+        />
+    <Button
+        android:id="@+id/group_16"
+        android:layout_width="221dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="527dp"
+        android:background="@drawable/btn_background"
+        android:text="getstarted"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_below="@id/couples"
+
+
+        />
+
+</RelativeLayout>
