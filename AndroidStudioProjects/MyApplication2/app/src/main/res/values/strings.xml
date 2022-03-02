@@ -2,5 +2,17 @@
     <string name="app_name">My Application</string>
     <string name="splash_app_name">Asian Melodies</string>
     <string name="app_tagline">Happy Couples Are The Cutest</string>
+    <string name="asian_melod">asian_melodies</string>
+    <string name="meet_the_ri">meet the right person</string>
+    <string name="welcome_bac">welcome back</string>
+    <string name="sign_up_to_">sign in to continue</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="remember_me">remember me</string>
+    <string name="sign_in">sign in</string>
+    <string name="forgot_your">forgot your password</string>
+    <string name="register_he">Register here</string>
+    <string name="sign_up">sign up</string>
+
 
 </resources>
