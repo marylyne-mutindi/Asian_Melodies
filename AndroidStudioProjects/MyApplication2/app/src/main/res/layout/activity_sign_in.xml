@@ -78,13 +78,12 @@
         android:layout_width="120dp"
         android:layout_height="33dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="25dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
         android:layout_marginTop="239dp"
-        android:text="@string/username"
-        android:textAppearance="@style/username"
         android:gravity="top"
-        />
+        android:text="@string/username"
+        android:textAppearance="@style/username" />
     <EditText
     android:id="@+id/rectangle_3"
     android:layout_width="372dp"
