@@ -7,8 +7,8 @@
     tools:context=".matc_page"
     android:background="@drawable/image"
     >
-
     <TextView
+
         android:id="@+id/its_a_match"
         android:layout_width="272dp"
         android:layout_height="104dp"
@@ -36,36 +36,6 @@
         android:text="you and matt have liked each other"
         android:textAppearance="@style/yoi_and_mat" />
 
-    <View
-        android:id="@+id/ellipse_8"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="236dp"
-        android:background="@drawable/ellipse_8" />
-
-    <View
-        android:id="@+id/ellipse_10"
-        android:layout_width="108.43dp"
-        android:layout_height="108.43dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="57dp"
-        android:layout_marginTop="245dp"
-        android:background="@drawable/ellipse_10" />
-
-
-    <View
-        android:id="@+id/some_id"
-        android:layout_width="146dp"
-        android:layout_height="186dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="42dp"
-        android:layout_marginTop="181dp"
-        android:background="@drawable/person1" />
 
     <Button
         android:id="@+id/rectangle_2"
@@ -82,16 +52,6 @@
         android:textAlignment="center"
         android:textAppearance="@style/message_him"
         tools:text="@string/message_him" />
-
-    <View
-        android:id="@+id/place_your_"
-        android:layout_width="108.43dp"
-        android:layout_height="108.43dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="61dp"
-        android:layout_marginTop="235dp"
-        android:background="@drawable/place_your_" />
 
 
 
