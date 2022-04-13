@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+
+    <ImageView
+        android:id="@+id/heart_g5614"
+        android:layout_width="362dp"
+        android:layout_height="362dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-44dp"
+        android:background="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/melodies"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/heart_g5614"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-29dp"
+        android:fontFamily="@font/magic_bold"
+        android:text="asian  melodies"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/group_16"
+        android:layout_width="221dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/melodies"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="369dp"
+        android:background="@drawable/btn_background"
+
+        android:text="getstarted"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+
+
+        />
+
+</RelativeLayout>

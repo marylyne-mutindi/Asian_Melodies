@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_in"
+    android:background="@drawable/love"
+    >
+
+    <TextView
+        android:id="@+id/asian_melod"
+        android:layout_width="281dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/asian_melod"
+        android:textAppearance="@style/asian_melod"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/meet_the_ri"
+        android:layout_width="286dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="59dp"
+        android:fontFamily="@font/magic_italic"
+        android:gravity="top"
+        android:text="@string/meet_the_ri"
+        android:textAppearance="@style/meet_the_ri"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="428dp"
+        android:layout_height="621dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="161dp"
+        android:background="@drawable/rectangle_2" />
+
+    <TextView
+        android:id="@+id/welcome_bac"
+        android:layout_width="172dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/welcome_bac"
+        android:textAppearance="@style/welcome_bac"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/sign_up_to_"
+        android:layout_width="123dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="195dp"
+        android:gravity="top"
+        android:text="@string/sign_up_to_"
+        android:textAppearance="@style/sign_up_to_" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="239dp"
+        android:gravity="top"
+        android:text="@string/username"
+        android:textAppearance="@style/username" />
+    <EditText
+    android:id="@+id/rectangle_3"
+    android:layout_width="372dp"
+    android:layout_height="2dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="21dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="278dp"
+    android:background="@drawable/drawable_3"
+    />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="119dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="305dp"
+        android:gravity="top"
+        android:text="@string/password"
+        android:textAppearance="@style/password" />
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="377dp"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="338dp"
+        android:background="@drawable/rectangle_4"
+        />
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="28dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/rectangle_5"
+        />
+    <TextView
+        android:id="@+id/remember_me"
+        android:layout_width="134dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="356dp"
+        android:text="@string/remember_me"
+        android:textAppearance="@style/remember_me"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="319dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="402dp"
+        android:background="@drawable/rectangle_6" />
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="133dp"
+        android:layout_height="79dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="400dp"
+
+        android:text="@string/sign_in"
+        android:textAppearance="@style/sign_in" />
+
+    <TextView
+        android:id="@+id/forgot_your"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="458dp"
+        android:text="@string/forgot_your"
+        android:textAppearance="@style/forgot_your"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/register_he"
+        android:layout_width="123dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="124dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="490dp"
+        android:text="@string/register_he"
+        android:textAppearance="@style/register_he"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="319dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="516dp"
+        android:background="@drawable/rectangle_7" />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="133dp"
+        android:layout_height="79dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="517dp"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_in" />
+</RelativeLayout>
