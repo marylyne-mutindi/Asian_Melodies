@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="splash_app_name">Asian Melodies</string>
+    <string name="app_tagline">Happy Couples Are The Cutest</string>
+    <string name="asian_melod">Asian Melodies</string>
+    <string name="meet_the_ri">Meet the right person</string>
+    <string name="welcome_bac">welcome back</string>
+    <string name="sign_up_to_">Sign in to continue</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">remember me</string>
+    <string name="sign_in">sign in</string>
+    <string name="forgot_your">forgot your password</string>
+    <string name="register_he">Register here</string>
+    <string name="sign_up">sign up</string>
+    <string name="phone_numbe">phone number
+     <item name="android:textSize"></item>
+    <item name="android:textColor">#000000</item>
+
+    </string>
+    <string name="some_id">phone number</string>
+    <string name="welcome_to_">welcome to asian melodies meet your loved one here
+    </string>
+    <string name="next">next</string>
+    <string name="mart_develo">mart developers</string>
+    <string name="so">,24</string>
+    <string name="nairobi_ken">nairobi,kenya</string>
+    <string name="meet_love">meet love</string>
+    <string name="yoi_and_mat">
+yoi and matt have liked each other
+</string>
+    <string name="its_a_match">
+its a match
+</string>
+    <string name="message_him">
+message him
+</string>
+    <string name="about_me">about me</string>
+    <string name="am_a_softwa">am a software Engineer and a web develover specialising in both front end and back end development</string>
+    <string name="reading">readig</string>
+    <string name="drawing">"drawing "</string>
+    <string name="design">design</string>
+    <string name="interest">interest</string>
+    <string name="development">development</string>
+    <string name="movie">movie</string>
+    <string name="photography">photography</string>
+    <string name="twentyfour">24</string>
+
+</resources>

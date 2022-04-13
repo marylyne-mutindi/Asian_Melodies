@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_in"
+    android:background="@drawable/love"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/asian_melod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="70dp"
+        android:fontFamily="@font/cake"
+        android:gravity="center"
+        android:text="@string/asian_melod"
+        android:textAlignment="center"
+        android:textAppearance="@style/asian_melod"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/meet_the_ri"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="62dp"
+        android:fontFamily="@font/cake"
+        android:gravity="center"
+        android:text="@string/meet_the_ri"
+        android:textAppearance="@style/meet_the_ri"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="411dp"
+        android:layout_height="524dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="211dp"
+        android:background="@drawable/rectangle_2" />
+
+    <TextView
+        android:id="@+id/welcome_back"
+        android:layout_width="298dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="56dp"
+        android:fontFamily="@font/awake"
+        android:gravity="center"
+        android:text="@string/welcome_bac"
+        android:textAppearance="@style/meet_the_ri"
+        android:textColor="@color/red"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/sign_up_to_"
+        android:layout_width="123dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="229dp"
+        android:gravity="top"
+        android:text="@string/sign_up_to_"
+        android:textAppearance="@style/sign_up_to_" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="278dp"
+        android:gravity="top"
+        android:hint="@string/username"
+        android:textAppearance="@style/password" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="353dp"
+        android:gravity="top"
+        android:hint="@string/password"
+        android:textAppearance="@style/password" />
+
+    <Button
+        android:id="@+id/rectangle_6"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="465dp"
+        android:background="@drawable/rectangle_6"
+        android:text="@string/sign_in" />
+
+    <TextView
+        android:id="@+id/forgotpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="530dp"
+        android:gravity="top"
+        android:hint="@string/forgot_your"
+        android:textAppearance="@style/forgot_your" />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="555dp"
+
+        android:hint="@string/register_he"
+        android:textAlignment="center"
+        android:textAppearance="@style/register_he" />
+
+    <Button
+        android:id="@+id/rectangle_8"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="598dp"
+        android:background="@drawable/rectangle_6"
+        android:text="@string/sign_up" />
+
+</RelativeLayout>

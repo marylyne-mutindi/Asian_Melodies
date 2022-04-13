@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".matc_page"
+    android:background="@drawable/image"
+    >
+    <TextView
+
+        android:id="@+id/its_a_match"
+        android:layout_width="272dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/cake"
+        android:gravity="top"
+        android:text="its a match"
+
+        android:textAppearance="@style/its_a_match" />
+
+
+    <TextView
+        android:id="@+id/yoi_and_mat"
+        android:layout_width="378dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="163dp"
+        android:fontFamily="@font/cake"
+        android:gravity="top"
+        android:text="you and matt have liked each other"
+        android:textAppearance="@style/yoi_and_mat" />
+
+
+    <Button
+        android:id="@+id/rectangle_2"
+        android:layout_width="330dp"
+        android:layout_height="88dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="456dp"
+        android:background="@drawable/rectangle_12"
+        android:elevation="4dp"
+        android:text="@string/message_him"
+
+        android:textAlignment="center"
+        android:textAppearance="@style/message_him"
+        tools:text="@string/message_him" />
+
+
+
+</RelativeLayout>

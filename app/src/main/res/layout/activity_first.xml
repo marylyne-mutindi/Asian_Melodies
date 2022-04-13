@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first"
+
+    android:background="@color/lightpink">
+
+    <ImageView
+        android:id="@+id/ci_bar_char"
+        android:layout_width="38dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/ic_baseline_bar_chart_24"
+        android:clipToOutline="true" />
+
+    <ImageView
+        android:id="@+id/bxs_bell"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/ic_baseline_add_alert_24"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:id="@+id/meet_love"
+        android:layout_width="168dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="75dp"
+        android:gravity="top"
+        android:text="@string/meet_love"
+        android:textAppearance="@style/meet_love" />
+
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="368dp"
+        android:layout_height="494dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="129dp"
+        android:background="@drawable/me" />
+
+    <View
+        android:id="@+id/picture"
+        android:layout_width="368dp"
+        android:layout_height="494dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="122dp"
+        android:background="@drawable/some_id" />
+
+    <View
+        android:id="@+id/group_6"
+        android:layout_width="347dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="494dp"
+        android:background="#ffff" />
+
+    <TextView
+        android:id="@+id/mart_develo"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="512dp"
+        android:gravity="top"
+        android:text="@string/mart_develo"
+        android:textAppearance="@style/mart_develo" />
+
+
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="36dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="222dp"
+        android:layout_marginTop="516dp"
+        android:gravity="top"
+        android:text="@string/so"
+        android:textAppearance="@style/some" />
+
+    <ImageView
+        android:id="@+id/bxs_right"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/ic_baseline_arrow_circle_right_24"
+        android:clipToOutline="true"
+
+        />
+
+    <ImageView
+        android:id="@+id/bxs_locatio"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="544dp"
+        android:background="@drawable/ic_baseline_person_pin_circle_24"
+        android:clipToOutline="true"
+
+        />
+
+    <TextView
+        android:id="@+id/nairobi_ken"
+        android:layout_width="159dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="548dp"
+        android:gravity="top"
+        android:text="@string/nairobi_ken"
+        android:textAppearance="@style/nairobi_ken" />
+
+
+    <View
+        android:id="@+id/ellipse_7"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/ellipes_7" />
+
+    <EditText
+        android:id="@+id/ellipse_8"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="358dp"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/ellipes_8"
+        android:text="4"/>
+
+
+    <TextView
+
+        android:layout_width="11dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="403dp"
+        android:layout_marginTop="98dp"
+        android:gravity="top"
+        android:text="@string/some_id"
+        android:textAppearance="@style/some_id" />
+
+    <ImageView
+        android:id="@+id/bi_x"
+        android:layout_width="101dp"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="628dp"
+        android:background="@drawable/ic_baseline_close_24"
+        android:clipToOutline="true" />
+
+    <View
+        android:id="@+id/love_circle"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="631dp"
+        android:background="@drawable/ic_baseline_favorite_24" />
+
+    <ImageView
+        android:id="@+id/bi_star"
+        android:layout_width="69dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="292dp"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/ic_baseline_star_24"
+        android:clipToOutline="true" />
+
+</RelativeLayout>

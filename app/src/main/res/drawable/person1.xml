@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="146dp"
+    android:height="186dp"
+    android:viewportWidth="146"
+    android:viewportHeight="186"
+    >
+    <group>
+        <clip-path
+            android:pathData="@string/mart_develo"
+            />
+    </group>
+</vector>
